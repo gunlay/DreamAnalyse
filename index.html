@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>梦境解析</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 日期显示 -->
+        <div class="date-section">
+            <h1 id="current-date"></h1>
+        </div>
+
+        <!-- 梦境知识卡片 -->
+        <div class="card dream-knowledge">
+            <h2>梦境知识</h2>
+            <p id="daily-knowledge"></p>
+        </div>
+
+        <!-- 今日运势卡片 -->
+        <div class="card horoscope">
+            <h2>今日运势</h2>
+            <p id="daily-horoscope"></p>
+        </div>
+
+        <!-- 本周梦境解读卡片 -->
+        <div class="card weekly-dream">
+            <h2>本周梦境解读</h2>
+            <div class="dream-image">
+                <img src="dream-image.jpg" alt="梦境图片">
+            </div>
+            <div class="dream-analysis">
+                <div class="analysis-item">
+                    <span class="dot"></span>
+                    <p>周公解梦：<span id="weekly-interpretation"></span></p>
+                </div>
+                <div class="analysis-item">
+                    <span class="dot"></span>
+                    <p>梦境心理学：<span id="psychology-interpretation"></span></p>
+                </div>
+                <div class="analysis-item">
+                    <span class="dot"></span>
+                    <p>综合解读：<span id="comprehensive-interpretation"></span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 输入区域 -->
+        <div class="input-section">
+            <div class="input-container">
+                <input type="text" placeholder="请输入您的梦境内容...">
+                <button class="voice-btn">
+                    <i class="mic-icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- 底部导航栏 -->
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item active">
+                <i class="home-icon"></i>
+                <span>首页</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="record-icon"></i>
+                <span>记录</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="profile-icon"></i>
+                <span>我的</span>
+            </a>
+        </nav>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
