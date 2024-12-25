@@ -1,78 +1,139 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>梦境解析</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <!-- 日期显示 -->
-        <div class="date-section">
-            <h1 id="current-date"></h1>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./common.css" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+  <body>
+    <div class="page flex-col">
+      <div class="group_1 flex-col">
+        <div class="group_2 flex-row">
+          <span class="text_1">9:41</span>
+          <div class="image-wrapper_1 flex-row justify-between">
+            <img
+              class="image_1"
+              referrerpolicy="no-referrer"
+              src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNGa6ad25f65ec573c717dd64a8e70366b6.png"
+            />
+            <img
+              class="label_1"
+              referrerpolicy="no-referrer"
+              src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNG6a0c4ca2fc8ea6dc269a8abdd44c9959.png"
+            />
+          </div>
+          <div class="box_1 flex-col"></div>
+          <div class="box_2 flex-col"></div>
+          <img
+            class="image_2"
+            referrerpolicy="no-referrer"
+            src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNG3e35a684bde311424056b34f58982466.png"
+          />
         </div>
-
-        <!-- 梦境知识卡片 -->
-        <div class="card dream-knowledge">
-            <h2>梦境知识</h2>
-            <p id="daily-knowledge"></p>
-        </div>
-
-        <!-- 今日运势卡片 -->
-        <div class="card horoscope">
-            <h2>今日运势</h2>
-            <p id="daily-horoscope"></p>
-        </div>
-
-        <!-- 本周梦境解读卡片 -->
-        <div class="card weekly-dream">
-            <h2>本周梦境解读</h2>
-            <div class="dream-image">
-                <img src="dream-image.jpg" alt="梦境图片">
+        <div class="group_3 flex-row">
+          <div class="block_1 flex-row">
+            <div class="image-text_1 flex-row justify-between">
+              <img
+                class="label_2"
+                referrerpolicy="no-referrer"
+                src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNG7db01bb8d89e5ca61d3fc05d7177e679.png"
+              />
+              <span class="text-group_1">梦竟</span>
             </div>
-            <div class="dream-analysis">
-                <div class="analysis-item">
-                    <span class="dot"></span>
-                    <p>周公解梦：<span id="weekly-interpretation"></span></p>
-                </div>
-                <div class="analysis-item">
-                    <span class="dot"></span>
-                    <p>梦境心理学：<span id="psychology-interpretation"></span></p>
-                </div>
-                <div class="analysis-item">
-                    <span class="dot"></span>
-                    <p>综合解读：<span id="comprehensive-interpretation"></span></p>
-                </div>
-            </div>
+          </div>
+          <span class="text_2">2024年12月24日</span>
+          <span class="text_3">周二</span> <span class="text_4">腊月廿四</span>
         </div>
-
-        <!-- 输入区域 -->
-        <div class="input-section">
-            <div class="input-container">
-                <input type="text" placeholder="请输入您的梦境内容...">
-                <button class="voice-btn">
-                    <i class="mic-icon"></i>
-                </button>
-            </div>
+        <div class="group_4 flex-row justify-between">
+          <img
+            class="label_3"
+            referrerpolicy="no-referrer"
+            src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNG640ee230e23bcd4cd659a101cafaad92.png"
+          />
+          <span class="text_5">弗洛伊德的梦境理论</span>
         </div>
-
-        <!-- 底部导航栏 -->
-        <nav class="bottom-nav">
-            <a href="#" class="nav-item active">
-                <i class="home-icon"></i>
-                <span>首页</span>
-            </a>
-            <a href="#" class="nav-item">
-                <i class="record-icon"></i>
-                <span>记录</span>
-            </a>
-            <a href="#" class="nav-item">
-                <i class="profile-icon"></i>
-                <span>我的</span>
-            </a>
-        </nav>
+        <span class="text_6"
+          >弗洛伊德认为，梦境是潜意识欲望和冲突的表现，尤其是那些被压抑的欲望。昨晚的梦，是不是某种未实现的渴望？</span
+        >
+        <div class="text-wrapper_1 flex-col">
+          <span class="text_7">📅&nbsp;今日运势</span>
+        </div>
+        <div class="text-wrapper_2 flex-col">
+          <span class="paragraph_1"
+            >✨&nbsp;整体运势：今天的你充满自信与创造力，适合在工作或生活中大胆表达自己的想法。你的热情可能会感染周围的人，带来积极的影响。<br /><br />💼&nbsp;事业运势：你的领导能力在团队中显得尤为突出，关键时刻的果断决策会让你脱颖而出。记得倾听他...</span
+          >
+        </div>
+        <div class="text-wrapper_3 flex-col">
+          <span class="text_8">🗒️&nbsp;梦境周报</span>
+        </div>
+      </div>
+      <div class="group_5 flex-col">
+        <div class="box_3 flex-row">
+          <div class="section_1 flex-col">
+            <span class="text_9">昨晚梦到什么了嘛?记录一下吧&nbsp;🤗</span>
+            <img
+              class="image_3"
+              referrerpolicy="no-referrer"
+              src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNG66198a5d48c04a5c9c97fbe43fd8cddc.png"
+            />
+          </div>
+        </div>
+        <div class="box_4 flex-row justify-between">
+          <div class="block_2 flex-row">
+            <div class="box_5 flex-col"></div>
+            <span class="text_10">write&nbsp;your&nbsp;dream</span>
+          </div>
+          <div class="image-wrapper_2 flex-col">
+            <img
+              class="label_4"
+              referrerpolicy="no-referrer"
+              src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNGd77acff328c2f28aebfd8361bd0e42c6.png"
+            />
+          </div>
+        </div>
+        <div class="box_6 flex-col justify-end">
+          <div class="list_1 flex-row">
+            <div class="image-text_2-0 flex-col justify-between">
+              <img
+                class="label_5-0"
+                referrerpolicy="no-referrer"
+                src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNG70b4cbf4b4cb26140ba9b6f14ab842ed.png"
+              />
+              <span class="text-group_2-0">Dream</span>
+            </div>
+            <div class="image-text_2-1 flex-col justify-between">
+              <img
+                class="label_5-1"
+                referrerpolicy="no-referrer"
+                src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNG63987a41e62b51c6c4603ed42dc71f3e.png"
+              />
+              <span class="text-group_2-1">记录</span>
+            </div>
+            <div class="image-text_2-2 flex-col justify-between">
+              <img
+                class="label_5-2"
+                referrerpolicy="no-referrer"
+                src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNG8acd03ba83a2714ffb00ebc147cbe09c.png"
+              />
+              <span class="text-group_2-2">我的</span>
+            </div>
+          </div>
+          <img
+            class="image_4"
+            referrerpolicy="no-referrer"
+            src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNG12cdba2bbc3ad25a28ec579b23edf9bb.png"
+          />
+        </div>
+        <div class="image-wrapper_3 flex-col">
+          <img
+            class="image_5"
+            referrerpolicy="no-referrer"
+            src="https://lanhu-oss.lanhuapp.com/FigmaDDSSlicePNGe5d67988ec43080f797247c183521ea0.png"
+          />
+        </div>
+      </div>
     </div>
-    <script src="script.js"></script>
-</body>
-</html>
+  </body>
+</html> 
